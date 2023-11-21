@@ -1,0 +1,35 @@
+.Actions_container{
+
+    color: white;
+    padding: 10px;
+    max-width: 90%;
+    margin: auto;
+
+
+    .Actions{
+        width: 100%;
+        padding: 20px;
+      
+        display: flex;
+        gap: 10px;
+    
+        justify-content: space-around;
+
+
+        .box{
+      
+         padding: 8px 17px;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+           
+            background-color: rgba(195, 233, 226, 0.179);
+            align-content: center;
+        }
+
+    }
+   
+
+
+   
+}

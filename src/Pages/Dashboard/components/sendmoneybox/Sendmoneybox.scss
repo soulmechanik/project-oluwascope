@@ -1,0 +1,30 @@
+.sendmoneybox_container{
+  
+
+display: flex;
+align-content: center;
+
+padding: 10px;
+justify-content: space-between;
+gap: 1rem;
+
+
+
+    .sendout{
+      border-radius: 3px;
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(195, 233, 226, 0.179);
+      cursor: pointer;
+    }
+
+    
+}
+
+.sendmoneybox_wrapper{
+  max-width: 90%;
+margin: auto;
+  margin-top: 2rem;
+}

@@ -1,0 +1,87 @@
+
+.transfer_wrapper{
+    height: 100vh;
+    background-color: rgb(39, 8, 8);
+}
+.transfer_header{
+    box-shadow: rgba(229, 229, 244, 0.769) 0px 1px 0px;
+    padding: 20px;
+    background-color: rgb(33, 32, 32);
+    color: white;
+}
+
+.transferbody{
+    background-color: rgba(19, 18, 18, 0.817);
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+
+    .bankname{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+        padding: 10px;
+
+
+        input{
+           border-radius: 1px;
+           height: 70px;
+
+        &::placeholder{
+            text-align: left;
+            padding: 10px;
+           }
+        }
+    }
+    .accountnumber{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+        padding: 10px;
+
+
+        input{
+           border-radius: 1px;
+           height: 70px;
+
+        &::placeholder{
+            text-align: left;
+            padding: 10px;
+           }
+        }
+    }
+
+
+   
+}
+
+.transferfooter{
+
+
+display: flex;
+
+justify-content: center;
+align-content: center;
+
+
+    .transferbutton{
+        width: 95%;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+  
+        margin: auto;
+     padding: 25px;
+        background-color: rgb(76, 33, 69);
+      
+    }
+
+}

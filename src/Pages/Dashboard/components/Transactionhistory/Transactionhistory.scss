@@ -1,0 +1,43 @@
+.transaction_history_wrapper{
+
+
+
+
+
+
+    .transaction_history_container{
+  
+
+padding: 10px;
+
+
+
+        .transaction_history{
+            width: 90%;
+margin: auto;
+
+          
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            align-content: center;
+
+
+
+
+            .TH_left{
+                display: flex;
+                gap: 10px;
+                padding: 10px;
+            }
+            .TH_right{
+              
+                padding: 10px;
+            }
+        }
+    }
+}
+.dot{
+    margin-top: 10px;
+    background-color: rgba(36, 33, 33, 0.783);
+}
