@@ -10,3 +10,7 @@
 ✅ A special YOUTUBE discount code is automatically applied!
 
 📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+
+
+To get database running:
+json-server --watch db.json --port 3001

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Actions.scss'
 
-const Actions = () => {
+const Actions = ({ user }) => {
   return (
     <div className='Actions_container'>
     <div className="Actions">

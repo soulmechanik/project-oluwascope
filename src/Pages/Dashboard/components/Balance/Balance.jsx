@@ -1,8 +1,21 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import './Balance.scss'
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
+// import axios from 'axios';
 
-const Balance = () => {
+// const USER_URL = 'http://localhost:3001/users'; // Replace with your JSON Server API endpoint
+
+
+const Balance = ({ user }) => {
+    useEffect(() => {
+        const balance = user.bal.toLocaleString('en-US', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+        });
+    }, [balance]);
+
+
+
   return (
     <div className='Balance_Wrapper'>
 
@@ -20,7 +33,7 @@ const Balance = () => {
               <div className="middle_wrapper">
 
                   <div className="middle">
-                    <div className="cash"><span>$ 8,050,000.00</span> </div>
+                    <div className="cash"><span>$ { balance }</span> </div>
                     <div className="toggle"><VisibilityOffOutlinedIcon/></div>
                    </div>
 

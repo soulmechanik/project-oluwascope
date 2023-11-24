@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "Administrator", "email": "admin@site.com", "password": "password", "bal": 1000000 },
+    { "id": 2, "name": "Test User", "email": "test@site.com", "password": "password", "bal": 999500 }
+  ],
+  "transactions": [
+    { "user":  2, "amount": 500 }
+  ]
+}
